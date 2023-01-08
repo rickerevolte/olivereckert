@@ -1,0 +1,20 @@
+{
+  "name": "v4-mymultipage",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "v-tooltip": "^2.1.3",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12",
+    "vue-vimeo-player": "^1.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.4"
+  }
+}
