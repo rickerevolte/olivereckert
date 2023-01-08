@@ -7,7 +7,7 @@
     </div>
     <h2 class="white">works</h2>
     <h4 class="white">selection</h4>
-    <!-- this is set to display: "none" in <style scoped> below-->
+    <!-- this is set to display: "block" in <style scoped> below-->
     <div id="userSortAndFilter">
         <label>
             <select id="selectSort" v-model="selected" @change="this.sort(this.filteredFilms)">
@@ -196,7 +196,7 @@
     }
     #userSortAndFilter {
         /* display: flex; */
-        display: none;
+        display: block;
         gap: 2ch;
     }
 
